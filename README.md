@@ -28,7 +28,7 @@ A modern, responsive web application for saving and organizing your bookmarks. B
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/link-saver-proj.git
+git clone https://github.com/Suryanshsrivastv/Link-Saver-Frontend
 cd link-saver-proj
 ```
 

@@ -1,12 +1,129 @@
-# React + Vite
+# Link Saver - Bookmark Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application for saving and organizing your bookmarks. Built with React and Node.js.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **User Authentication**: Secure signup and login functionality
+- **Bookmark Management**: Add, view, and delete bookmarks
+- **Responsive Design**: Fully responsive interface that works on all devices
+- **Modern UI**: Clean and intuitive user interface with smooth animations
+- **Secure**: JWT-based authentication and protected routes
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React 18
+- React Router v6
+- Axios for API calls
+- Custom CSS for styling
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- JWT Authentication
+
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/link-saver-proj.git
+cd link-saver-proj
+```
+
+2. Install dependencies:
+```bash
+# Install frontend dependencies
+cd frontend/link-saver-frontend
+npm install
+
+# Install backend dependencies
+cd ../../backend
+npm install
+```
+```
+API_URL=https://link-saver-backend.onrender.com/api
+```
+
+## 🚀 Usage
+
+1. Start the development server:
+```bash
+# Start frontend (from frontend directory)
+npm run dev
+
+# Start backend (from backend directory)
+npm start
+```
+
+2. Open your browser and navigate to:
+```
+http://localhost:5173
+```
+
+## 🔒 Environment Variables
+
+### Frontend
+- `VITE_API_URL`: Backend API URL
+
+### Backend
+- `MONGODB_URI`: MongoDB connection string
+- `JWT_SECRET`: Secret key for JWT
+- `PORT`: Server port (default: 5000)
+
+## 📱 Features Overview
+
+### User Authentication
+- Secure signup with email validation
+- JWT-based authentication
+- Protected routes
+
+### Bookmark Management
+- Add bookmarks with automatic metadata fetching
+- View all saved bookmarks
+- Delete unwanted bookmarks
+- Responsive grid layout
+
+## 🎨 UI Components
+
+- Modern card-based design
+- Gradient accents
+- Responsive navigation
+- Loading states
+- Error handling
+- Form validation
+
+## 🔐 Security Features
+
+- JWT token validation
+- Protected API endpoints
+- Secure password handling
+- Input validation
+- CORS protection
+
+## 🌐 Deployment
+
+The application is deployed using:
+- Frontend: Netlify
+- Backend: Render
+- Database: MongoDB Atlas
+
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 👥 Authors
+
+- Initial work - [Suryansh Shrivastava]
+
+## 🙏 Acknowledgments
+
+- React documentation
+- MongoDB documentation
+- Render and Netlify for hosting

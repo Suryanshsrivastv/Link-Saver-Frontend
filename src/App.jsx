@@ -1,11 +1,11 @@
 import { Route, Routes, Navigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import Login from './pages/login'
-import Signup from './pages/signup'
-import Dashboard from './pages/dashboard'
-import AddBookmark from './pages/AddBookmark';
-import './App.css'
-import axios from './api/axios'
+import Login from './pages/Login.jsx';  // Update case
+import Signup from './pages/Signup.jsx'; // Update case
+import Dashboard from './pages/Dashboard.jsx'; // Update case
+import AddBookmark from './pages/AddBookmark.jsx'; // Add .jsx extension
+import './App.css';
+import axios from './api/axios';
 
 function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
